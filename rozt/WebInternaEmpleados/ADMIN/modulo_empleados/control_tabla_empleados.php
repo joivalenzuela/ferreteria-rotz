@@ -47,7 +47,7 @@
         >
             <i title="Descendente" id="flecha_abajo" class="fa-sharp-duotone fa-solid fa-arrow-up fa-rotate-180" style="--fa-primary-color: #0505a0; --fa-secondary-color: #0505a0;"></i>
         </a> 
-        <a class="modificar"    onclick=ocultar_tabla()><i id="agregar" class="fa-solid fa-plus"></i></a>
+        <a class="modificar" href="agregar_tabla_empleados.php"><i id="agregar" class="fa-solid fa-plus"></i></a>
         <a class="modificar" ><i id="eliminar" class="fa-solid fa-trash"></i></a>
     </div>
 </div>

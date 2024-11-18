@@ -80,7 +80,8 @@
                 $manera = 'asc';
             }
             $consulta = "SELECT empleado.ID, empleado.run as RUN, empleado.dv as dv, 
-            empleado.nombre as nombre, empleado.apellido as apellido, empleado.correo, empleado.telefono, puesto.nombre as puesto FROM empleado inner join puesto on empleado.id = puesto.id order by $ordenarPor $manera" ;
+            empleado.nombre as nombre, empleado.apellido as apellido, empleado.correo, empleado.telefono, puesto.nombre as puesto FROM empleado inner join puesto on empleado.puesto = puesto.id order by $ordenarPor $manera" ;
+    
             $resultado = mysqli_query($conection,$consulta);
             if($resultado) {
 

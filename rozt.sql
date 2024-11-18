@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-11-2024 a las 02:18:25
+-- Tiempo de generación: 18-11-2024 a las 14:52:59
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -63,8 +63,9 @@ CREATE TABLE `empleado` (
 
 INSERT INTO `empleado` (`ID`, `nombre`, `apellido`, `correo`, `run`, `dv`, `contraseña`, `direccion`, `telefono`, `puesto`) VALUES
 (1, 'Jose', 'Valenzuela', 'jivalenzuela2010@hotmail.com', 20880062, '0', 'qetuo123', 'los austriacos 729', 934949281, 1),
-(2, 'Pedro', 'Gonzales', 'p.gonzales@gmail.com', 23456378, 'k', 'rth3443r', 'los jasmines 89', 9872345, 3),
-(3, 'Javiera', 'Tulipanes', 'tulipanes.jav@outlook.cl', 23567454, '2', 'weferg432', 'el mundo', 2358765, 3);
+(2, 'ewfwef', 'ewfwef', 'wefwe@wefw', 325235, '3', '325235', 'weffw', 324324, 2),
+(3, 'ewfwef', 'efwefew', 'ewfewf@wefwef', 324234, '3', 'ewfwe', 'wefwefew', 32423423, 2),
+(8, 'kuikui', 'dcsd', '23423@erfergerg', 234234, '5', '234234', 'ergerg', 2345234, 3);
 
 -- --------------------------------------------------------
 
@@ -185,7 +186,7 @@ ALTER TABLE `cliente`
 -- AUTO_INCREMENT de la tabla `empleado`
 --
 ALTER TABLE `empleado`
-  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT de la tabla `producto`

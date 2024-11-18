@@ -1,8 +1,9 @@
-*{
+
+.cuadro,h1{
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
-
 input{
     margin-bottom: 10px;
 }

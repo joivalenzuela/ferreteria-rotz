@@ -60,7 +60,6 @@
             <?php
                 include('control_tabla_empleados.php');
                 include("tabla_empleados.php");
-                include('agregar_tabla_empleados.php');
             ?>
             
         </main>
