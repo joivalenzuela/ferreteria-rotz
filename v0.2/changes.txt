@@ -1,3 +1,0 @@
--agregada pagina para empleados con menu desplegable
--pinseladas de javaScript
--organizacion de archivos en carpetas diferenciadas
