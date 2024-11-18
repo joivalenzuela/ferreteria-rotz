@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    font-size: 100%;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+}
+
+.titulo{
+    padding-top: 20px;
+    text-align: center;
+}
+.contenedor_nombres_columnas{
+    
+    position: relative;
+    margin-top:25px;
+    margin-left: 225px;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    
+}
+.container_items{
+    position: relative;
+    margin-left: 225px;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    display: inline-block;
+}
+.nom_columna{
+    float:left;
+    border: 5px solid rgb(5, 5, 160);
+    border-left: none;
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+    
+}
+.item_columna{
+    text-align: center;
+    float:left;
+    border: 2px solid rgb(5, 5, 160);
+    border-left: none;
+    width: 10%;
+    padding: 10px;
+    height: 60px;
+    overflow-x: scroll;
+}
+.nom_columna_id{
+    float:left;
+    border: 5px solid rgb(5, 5, 160);
+    margin: auto;
+    width: 6%;
+    padding: 10px;
+}
+
+.item_columna_id{
+    text-align: center;
+    float:left;
+    border: 2px solid rgb(5, 5, 160);
+    width: 6%;
+    padding: 10px;
+    height: 60px;
+    overflow-x: scroll;
+    
+}
+.nom_columna_correo{
+    float:left;
+    border: 5px solid rgb(5, 5, 160);
+    border-left: none;
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+}
+.nom_columna_correo h4{
+    float:left;
+    border: 5px solid rgb(5, 5, 160);
+    border-left: none;
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+}
+
+
+
+.item_columna_correo{
+    text-align: center;
+    float:left;
+    border: 2px solid rgb(5, 5, 160);
+    border-left: none;
+    width: 15%;
+    padding: 10px;
+    height: 60px;
+    overflow-x: scroll;
+    font-weight: normal;
+    
+}
+.item_columna h4{
+    text-align: center;
+    margin:5px;
+    font-weight: normal;
+}
+
+
+#flecha_arriva, #flecha_abajo, #agregar, #eliminar{
+    font-size: 20px;        
+    margin: 0 10px;
+}
+
+.flechas, .modificar {
+    display: inline-flex;           
+    justify-content: center;        
+    align-items: center;           
+    text-decoration: none;        
+    padding: 0; 
+    
+}
+.icon_container{
+    display: flex;                
+    justify-content: center;       
+    align-items: center;           
+    gap: 20px;                      
+    height: 10vh;                  
+    width: 100%;  
+}
+.agregar_a_tabla{
+    display: none;
+}
